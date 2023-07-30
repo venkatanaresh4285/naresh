@@ -1,0 +1,11 @@
+#include <bits/stdc++.h> 
+void reverseArray(vector<int> &arr , int m){
+int a=m+1;
+reverse(arr.begin()+a,arr.end());
+// int low=m+1,high=arr.size()-1;
+// while(low<=high){
+// 	swap(arr[low],arr[high]);
+// 	low++;
+// 	high--;
+// }
+}
